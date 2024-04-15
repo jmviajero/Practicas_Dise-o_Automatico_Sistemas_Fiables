@@ -1,20 +1,16 @@
-20ns 		1 0 0 # Reset inactive
-20ns		0 0 0 # Reset active
-20ns		1 0 0 # Reset inactive	
-
-200ns    	1 1 0   # Btn on with noise
-200ns    	1 0 0   # Btn on with noise
-200ns		1 1 0   # Btn on with noise
+200ns 		1 0 0 	# Reset inactive
+200ns		0 0 0 	# Reset active
+200ns		1 0 0 	# Reset inactive	
+200000ns  	1 1 0   # Btn on with noise
+200000ns  	1 0 0   # Btn on with noise
+200000ns  	1 1 0   # Btn on with noise
 1000000ns   	1 1 1   # Btn on with noise
-
-200ns  	   	1 0 1   # False boton off 
-200ns  	  	1 1 1   # False boton off 
+200000ns  	1 0 1   # False boton off 
+200000ns  	1 1 1   # False boton off 
 1000000ns  	1 0 1   # False boton off 
-
-200ns	  	1 1 1   # Boton off with noise
-200ns	 	1 0 1   # Boton off with noise
+200000ns  	1 1 1   # Boton off with noise
+200000ns  	1 0 1   # Boton off with noise
 1000000ns 	1 1 0   # Boton off with noise
-
-200ns	   	1 0 0   # False boton on
-200ns	   	1 1 0   # False boton on
+200000ns  	1 0 0   # False boton on
+200000ns  	1 1 0   # False boton on
 1000000ns  	1 0 0   # False boton on
